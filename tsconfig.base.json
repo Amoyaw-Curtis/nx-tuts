@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@integrated1/footer": ["libs/footer/src/index.ts"],
+      "@integrated1/header": ["libs/header/src/index.ts"],
+      "@integrated1/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
